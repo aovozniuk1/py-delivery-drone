@@ -29,7 +29,7 @@ class BaseRobot:
 
 class FlyingRobot(BaseRobot):
     def __init__(self, name: str, weight
-                   : int, coords: list = None) -> None:
+                 : int, coords: list = None) -> None:
         if coords is None:
             super().__init__(name, weight, [0, 0, 0])
         else:
